@@ -1,0 +1,384 @@
+CTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbg ">
+        <div class="container-fluid">
+          <a class="navbar-brand " href="#"><img src="assets/imgs/al-dawaa.png" width="220" height="70" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link anc" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link anc"  href="index.html#about">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle anc" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Products
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#ME">Medicine</a></li>
+                  <li><a class="dropdown-item" href="#VI">Vitamins</a></li>
+                  <li><a class="dropdown-item" href="#MB">Mam&Baby</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#BE">Beauty</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link anc"  href="contactUs.html">ContactUs</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success anc" type="submit">Search</button>
+            </form>
+            <span onclick="sign()" class="mx-4"><ion-icon name="person-circle-outline" style="color: blanchedalmond;" size="large"></ion-icon></span>
+            <div class="box">
+                <div class="cart-count">0</div>
+                <ion-icon name="cart" size="large" id="cart-icon" ></ion-icon>
+            </div>
+            <div class="cart">
+                <div class="cart-title">Cart Items</div>
+                <div class="cart-content">
+                </div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">EP.0</div>
+                </div>
+                <button class="btn-buy">Buy</button>
+                <ion-icon name="close" id="cart-close"></ion-icon>
+            </div> 
+          </div>
+        </div>
+      </nav>
+    </header>
+<!-- ////////////////////////////////// medicine/////////////////////////////////////////// -->
+        <section>
+        <div class="text-center">
+        <h1 id="ME" >Medications</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                <img src="assets/imgs/med(1).jpeg" class="card-img-top photo" alt="...">
+                <h5 class="card-title price">EP.15</h5>
+                <p class="card-text">لوكويد مرهم 0.1 LOCOID 0.1% OINT, 30 GM</p>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                <img src="assets/imgs/med(2).jpeg" class="card-img-top photo" alt="...">
+                    <h5 class="card-title price">EP.16</h5>
+                    <p class="card-text">دويتو كريم 50 جم , DUETTO SKIN REPAIR CREAM 50 GM</p>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                <img src="assets/imgs/med(3).jpeg" class="card-img-top photo" alt="...">
+                <h5 class="card-title price">EP.20</h5>
+                <p class="card-text">كوكسيكام 15 مجم 10 قرص COXICAM 15MG TAB,10 'S</p>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <img src="assets/imgs/med(4).jpeg" class="card-img-top photo" alt="...">
+                    <h5 class="card-title price">EP.150</h5>
+                    <p class="card-text">ايرفاست 5 مجم اقراص مضغ 30 قرص AIRFAST 5 MG CHEWABLE TAB</p>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                <img src="assets/imgs/med(5).jpg" class="card-img-top photo" alt="...">
+                <h5 class="card-title price">EP.67</h5>
+                <p class="card-text">زيلوكين 10 % بخاخ 50 مل XYLOCAINE 10% SPRAY, 50ML</p>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                <img src="assets/imgs/med(6).jpg" class="card-img-top photo" alt="...">    
+                <h5 class="card-title price">EP.123</h5>
+                <p class="card-text">زستريل 20 مجم 28 قرص ZESTRIL 20MG TAB, 28's</p>
+                <ion-icon name="cart" class="add-cart"></ion-icon> 
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </section>
+    <hr>
+    <!-- //////////////////vitamins////////////////////////////// -->
+    <section>
+    <div class="text-center">
+        <h1 id="VI">vitamins</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                <img src="assets/imgs/vi(1).jpg" class="card-img-top photo" alt="...">   
+                <h5 class="card-title price">EP.150</h5>
+                <p class="card-text">نيوكاربون 30 كبسوله MARNYS NEOCARBON CAP, 30 'S</p>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <img src="assets/imgs/vi(2).jpg" class="card-img-top photo" alt="...">
+                    <h5 class="card-title price">EP.150</h5>
+                    <p class="card-text">ويلمان صحة وحيوية وطاقة 30 كبسولة WELLMAN CAP,30'S</p>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                <img src="assets/imgs/vi(3).jpg" class="card-img-top photo" alt="...">    
+                <h5 class="card-title price">EP.67</h5>
+                <p class="card-text">CO-Q10 100MGCAP,30'S</p>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <img src="assets/imgs/vi(4).jpg" class="card-img-top photo" alt="...">
+                    <h5 class="card-title price">EP.150</h5>
+                    <p class="card-text">نيوروروبين فورت 20 قرص NEURORUBINE-FORTE TAB, 20 'S</p>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                <img src="assets/imgs/vi(5).jpg" class="card-img-top photo" alt="...">   
+                <h5 class="card-title price">EP.67</h5>
+                <p class="card-text">نيوروبيون 30 قرص NEUROBION TAB, 20 'S</p>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                <img src="assets/imgs/vi(6).jpg" class="card-img-top photo" alt="...">
+                <h5 class="card-title price">EP.123</h5>
+                <p class="card-text">نيورو-بي 20 قرص NEURO - B TAB, 20 'S</p>
+                <ion-icon name="cart" class="add-cart"></ion-icon> 
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <hr>
+     <!-- //////////////////mam&baby////////////////////////////// -->
+     <section>
+     <div class="text-center">
+        <h1 id="MB">Mam&Baby</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                <img src="assets/imgs/NTjp3Nlzra79FrX5XMN7coM9UdTm9aOkgo7Yv92a.png" class="card-img-top photo" alt="...">
+                <h5 class="card-title price">EP.150</h5>
+                <p class="card-text">BABY LIFE PANTS XLARGE BOX (2BAG*36)</p>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <img src="assets/imgs/eS0v4oIzXQj1VpQcXuYSOGJVoinCKzizHara2Ueh.jpg" class="card-img-top photo" alt="...">
+                    <h5 class="card-title price">EP.150</h5>
+                    <p class="card-text">بيجون منظف لأنف الأطفال , PIGEON NOSE CLEANER SUCTION SYRINGE 336</p>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                <img src="assets/imgs/4NUWkqyxxiCNFcb0Zuo0r4TDyOY2QPUumeitEbyk.jpg" class="card-img-top photo" alt="...">
+                <h5 class="card-title price">EP.67</h5>
+                <p class="card-text">سانيتا شارم اعواد اذن امنه للاطفال 50حبه , SANITA CHARM SAFETY BABY EAR BUDS 24X50'S W503</p>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <img src="assets/imgs/E3VQzmddKtkwIeoRwweQOxhk1Z34zGdEvYOCiBvd.jpg" class="card-img-top photo" alt="...">
+                    <h5 class="card-title price">EP.150</h5>
+                    <p class="card-text">ديجتال مقياس حراره DIGITAL THERMOMETER DT123</p>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                <img src="assets/imgs/53bid7o3BHR4uyi9g9nhW1B0hHye2d9f2HJj40Kl.jpg" class="card-img-top photo" alt="...">    
+                <h5 class="card-title price">EP.67</h5>
+                <p class="card-text">سيريلاك سيريال قمح عبوة عائليه (1000 جم*2)</p>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                <img src="assets/imgs/E3si5wuuPxAKmVOUjbVARraZEpAISjiQepk0ORT4.jpg" class="card-img-top photo" alt="...">    
+                <h5 class="card-title price">EP.123</h5>
+                <p class="card-text">نيورالاك حليب أطفال (خالي من اللاكتوز) 400 جم , NURALAC LACTO-FREE,400G</p>
+                <ion-icon name="cart" class="add-cart"></ion-icon> 
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <hr>
+    <!-- ////////////////////////////////// beauty/////////////////////////////////////// -->
+    <section>
+    <div class="text-center">
+        <h1 id="BE">Beauty</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                <img src="assets/imgs/Jvk4axVwFhX9S0T4jGBddpvprJsRRf6esfeuRZLp.jpg" class="card-img-top photo" alt="...">
+                <h5 class="card-title price">EP.150</h5>
+                <p class="card-text">"بيودرما-فوتوديرم حليب للبشرة (SPF100) 100 مل , BIODERMA PHOTODERM MAX MILK, 100 ML 30505</p>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <img src="assets/imgs/tCjWU508EmJb3rdoMnaZUYzNZ2ZZZTxD4ugAalx5.jpg" class="card-img-top photo" alt="...">
+                    <h5 class="card-title price">EP.150</h5>
+                    <p class="card-text">"هيد&شولدرز عود 4*6*400مل , H&S OUD 24*400ML</p>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                <img src="assets/imgs/dgel6TwmjQ4Auogg1rd5hIgEkD3sfHtXG899RQrI.jpg" class="card-img-top photo" alt="...">    
+                <h5 class="card-title price">EP.67</h5>
+                <p class="card-text">كوليستون صبغة شعر بني غزالي كيت 7/7 , KOLESTON KIT 7/7 DEER BROWN</p>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    </div>
+    </div>
+    </section>
+    <hr>
+    <!-- //////////////////////////////////////////////////////////// -->
+        <footer>
+            <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>
+                    Contact
+                    </h3>
+                    <div>
+                        <img src="assets/imgs/phone.png" alt="">
+                        <h6>
+                        01064212665
+                        </h6>
+                    </div>
+                    <div>
+                    <div>
+                        <img src="assets/imgs/email.png" alt="">
+                        <h6>
+                        hafsafathy020@gmail.com
+                        </h6>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                <a href="">
+                    <img src="assets/imgs/facebook.png" alt="">
+                </a>
+                <a href="" class="mx-4">
+                    <img src="assets/imgs/twitter.png" alt="" >
+                </a>
+                <a href="">
+                    <img src="assets/imgs/instagram.png" alt="" >
+                </a>
+                </div>
+                <div class="col-md-4">
+                <div class="info_menu">
+                    <h3>
+                    Menu
+                    </h3>
+                    <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about"> About </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html"> Medicine </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactUs.html"> ContactUs</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+                
+            </div>
+            </div>
+        </footer>
+      <script src="assets/js/main.js"></script>
+      <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+      <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
